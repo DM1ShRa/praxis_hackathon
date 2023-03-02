@@ -36,6 +36,22 @@ app.get('/cart', (req, res) => {
     res.render('cart')
 
 })
+app.get('/checkout', (req, res) => {
+    res.render('checkout')
+
+})
+app.get('/account', (req, res) => {
+    res.render('my-account')
+
+})
+app.get('/wishlist', (req, res) => {
+    res.render('wishlist')
+
+})
+app.get('/gallery', (req, res) => {
+    res.render('gallery')
+
+})
 
 app.listen(3000, () => {
     console.log('Serving on port 3000');
