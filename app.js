@@ -52,6 +52,10 @@ app.get('/gallery', (req, res) => {
     res.render('gallery')
 
 })
+app.get('/contactUs', (req, res) => {
+    res.render('contact-us')
+
+})
 
 app.listen(3000, () => {
     console.log('Serving on port 3000');
